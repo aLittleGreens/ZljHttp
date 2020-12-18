@@ -16,7 +16,8 @@
 
 ## 使用方式
 
-## 初始化baseUrl
+## 初始化默认的baseUrl
+
 ```Java
 ZljHttp.Configure.get().baseUrl("https://www.baidu.com");
 
@@ -75,13 +76,13 @@ ZljHttpRequest.get()
 
 ```java
  ...
-.execute(new HttpCallback() {
-			   @Override
+		.execute(new HttpCallback() {
+		    @Override
                     public void onSuccess(Object object) {
                     if (object instanceof JsonElement) {
                              Gson gson = new Gson();
                              MessageCenterBean messageCenterBean = gson.fromJson((JsonElement) object, MessageCenterBean.class);
-                            }
+                      }
                      }
                 });
 
@@ -100,7 +101,7 @@ ZljHttpRequest.post()
                 .build()
                 .execute(new HttpCallback<MessageCenterBean>() {
 
-			@Override
+		    @Override
                     public void onSuccess(MessageCenterBean messageCenterBean) {
                     
                      }
