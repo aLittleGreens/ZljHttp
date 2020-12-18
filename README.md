@@ -13,6 +13,12 @@
 
 # 使用方式
 
+## 初始化baseUrl
+```Java
+ZljHttp.Configure.get().baseUrl("https://www.baidu.com");
+
+```
+
 ## 一、发起请求
 
 ### 1、GET请求
