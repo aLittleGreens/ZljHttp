@@ -1,0 +1,3 @@
+<resources>
+    <string name="network_unreachable">网络好像出问题啦</string>
+</resources>

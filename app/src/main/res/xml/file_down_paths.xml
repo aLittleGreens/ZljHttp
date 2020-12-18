@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--path：需要临时授权访问的路径（.代表所有路径） name：就是你给这个访问路径起个名字-->
+    <root-path
+        name="root_path"
+        path="."/>
+
+    <files-path
+        name="files_path"
+        path="." />
+
+    <cache-path
+        name="cache_path"
+        path="." />
+
+    <external-files-path
+        name="external_file_path"
+        path="." />
+
+    <external-cache-path
+        name="external_cache_path"
+        path="." />
+
+    <external-path
+        name="lite_images"
+        path="Android/sign/com.megvii.lite/files/Pictures/"/>
+
+    <external-path
+        name="images"
+        path="Pictures/"/>
+
+    <external-path
+        name="dcim"
+        path="DCIM/"/>
+
+    <external-path
+        name="external_files"
+        path="."/>
+
+
+</paths>
